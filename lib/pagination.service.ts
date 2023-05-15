@@ -28,6 +28,14 @@ export class PaginationService<T = {}> {
     };
   }
 
+  public buildPaginationResponse(dto: MainPagingDTO, total: number) {
+    return {
+      page: Number(dto.page),
+      size: Number(dto.size),
+      total,
+    };
+  }
+
   private whereUsingRepository(
     search: string,
     allowedSearch?: (keyof T)[]

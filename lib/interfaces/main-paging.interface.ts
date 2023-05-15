@@ -1,7 +1,6 @@
 import { OrderDirection } from '../enums/order-direction.enum';
-import { IMainPaging } from '../interfaces/main-paging.interface';
 
-export class MainPagingDTO implements IMainPaging {
+export interface IMainPaging {
   page: number;
   size: number;
   search: string;
