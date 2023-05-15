@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1684111490621" clover="3.2.0">
+  <project timestamp="1684111490621" name="All files">
+    <metrics statements="22" coveredstatements="22" conditionals="6" coveredconditionals="4" methods="6" coveredmethods="6" elements="34" coveredelements="32" complexity="0" loc="22" ncloc="22" packages="1" files="1" classes="1"/>
+    <file name="pagination.service.ts" path="/home/taufik-rahadi/workspace/AIT/nestjs-pagination/lib/pagination.service.ts">
+      <metrics statements="22" coveredstatements="22" conditionals="6" coveredconditionals="4" methods="6" coveredmethods="6"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="8" count="3" type="cond" truecount="1" falsecount="1"/>
+      <line num="9" count="3" type="stmt"/>
+      <line num="10" count="3" type="stmt"/>
+      <line num="11" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="14" count="3" type="stmt"/>
+      <line num="22" count="2" type="stmt"/>
+      <line num="23" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="24" count="2" type="stmt"/>
+      <line num="25" count="2" type="stmt"/>
+      <line num="28" count="2" type="stmt"/>
+      <line num="30" count="2" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="34" count="2" type="stmt"/>
+      <line num="35" count="2" type="stmt"/>
+      <line num="36" count="2" type="stmt"/>
+      <line num="38" count="1" type="stmt"/>
+      <line num="41" count="3" type="stmt"/>
+      <line num="46" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
