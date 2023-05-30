@@ -13,7 +13,7 @@ export class PaginationService<T = {}> {
     const { page, size, search } = queryParams;
 
     const skip = page > 1 ? page * size - size : 0;
-    const take = size;
+    const take = size && size > 1 ? size : 10;
     const sort = this.parseSortAndOrder(queryParams);
     const where: WhereUsingQueryBuilder | WhereUsingRepository<T> =
       whereType === 'repository'
