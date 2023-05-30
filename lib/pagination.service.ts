@@ -60,6 +60,7 @@ export class PaginationService<T = {}> {
     search: string,
     columns: (keyof T)[]
   ): WhereUsingQueryBuilder {
+    if (search.length < 1) return [];
     const whereQuery = columns.map((column) => {
       const searchString = `${column as string} ilike :q`;
       const searchCriteria = `%${search}%`;
