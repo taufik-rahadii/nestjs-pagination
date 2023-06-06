@@ -37,7 +37,7 @@ class PaginationService {
         return where;
     }
     whereUsingQueryBuilder(search, columns) {
-        if (search.length < 1)
+        if (!search || search.length < 1)
             return [];
         const whereQuery = columns.map((column) => {
             const searchString = `${column} ilike :q`;
